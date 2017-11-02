@@ -8,8 +8,6 @@ return [
         'timeout' => 30,
         'retry' => 1,
     ],
-    // 'endpoint' => 'https://api.sandbox.paypal.com',
-    // 'endpoint' => 'https://api.paypal.com',
     'log' => [
         'enabled' =>  true,
         'filename' =>  storage_path('logs/paypal.log'),
