@@ -12,7 +12,7 @@
             "email": "jason@xs-tech.sg"
         }
     ],
-    "auto-load": {
+    "autoload": {
         "psr-0": {
             "XTech\\L5Paypal": "src/"
         }
