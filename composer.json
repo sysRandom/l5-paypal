@@ -11,5 +11,6 @@
             "name": "Jason Soh",
             "email": "jason@xs-tech.sg"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
