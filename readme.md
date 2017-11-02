@@ -14,10 +14,13 @@ L5-Paypal is a wrapper package encapsulating Paypal REST API SDK.
 ]
 ```
 
-3. Finally, add an alias to `app/config/app.php` in the `aliases` array.
+3. Add an alias to `app/config/app.php` in the `aliases` array.
 
 ```php
 'aliases' => [
     'Paypal' => XSTech\L5Paypal\Facades\Paypal::class,
 ]
 ```
+
+4. Finally, publish package config.
+    php artisan vendor:publish --provider="XSTech\L5Paypal\L5PaypalServiceProvider"
