@@ -1,0 +1,15 @@
+{
+    "name": "xstech/l5-paypal",
+    "description": "Simple Laravel 5 Paypal SDK wrapper",
+    "require": {
+        "php": ">=7.0",
+        "paypal/rest-api-sdk-php": "^1.12"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jason Soh",
+            "email": "jason@xs-tech.sg"
+        }
+    ]
+}
