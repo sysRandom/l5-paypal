@@ -23,4 +23,4 @@ L5-Paypal is a wrapper package encapsulating Paypal REST API SDK.
 ```
 
 4. Finally, publish package config.
-    php artisan vendor:publish --provider="XSTech\L5Paypal\L5PaypalServiceProvider"
+`php artisan vendor:publish --provider="XSTech\L5Paypal\L5PaypalServiceProvider"`
